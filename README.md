@@ -17,3 +17,16 @@ La búsqueda primero en profundidad usa un lista LIFO, después de modelar el pr
 - Luego se expande uno de los hijos 
 - Luego se expanden los hijos del hijo anterior etc.
 - Si no es solución se retrocede y se prueba el siguiente hijo.
+
+### Dibujando grafos en python
+
+```python
+graph = {'A': ['B', 'C'],
+         'B': ['C', 'D'],
+         'C': ['D'],
+         'D': ['C'],
+         'E': ['F'],
+         'F': ['C']}
+```
+
+![Con titulo](graph_2.png "grafo de numeros")
