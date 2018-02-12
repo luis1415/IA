@@ -1,1 +1,19 @@
 # Algoritmos de inteligencia artificial
+
+
+#### Búsqueda primero en amplitud (BFS Breadth First Search)
+
+La búsqueda primero en amplitud usa una lista FIFO, una vez modelado el problema como árbol se hace los siguiente:
+
+- Se expande el nodo raíz 
+- Luego se expanden los nodos hijos
+- Luego los hijos de los hijos hasta encontrar la solución.
+
+#### Búsqueda primero en profundidad (DFS Depth First Search) 
+
+La búsqueda primero en profundidad usa un lista LIFO, después de modelar el problema como árbol:
+
+- Se expande el nodo raíz 
+- Luego se expande uno de los hijos 
+- Luego se expanden los hijos del hijo anterior etc.
+- Si no es solución se retrocede y se prueba el siguiente hijo.
