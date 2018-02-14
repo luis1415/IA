@@ -3,7 +3,7 @@
 
 #### Búsqueda primero en amplitud (BFS Breadth First Search)
 
-La búsqueda primero en amplitud usa una lista FIFO, una vez modelado el problema como árbol se hace los siguiente:
+La búsqueda primero en amplitud usa una lista FIFO, una vez modelado el problema como árbol se siguen los siguientes pasos:
 
 - Se expande el nodo raíz 
 - Luego se expanden los nodos hijos
@@ -19,6 +19,14 @@ La búsqueda primero en profundidad usa un lista LIFO, después de modelar el pr
 - Si no es solución se retrocede y se prueba el siguiente hijo.
 
 ### Dibujando grafos en python
+
+Para dibujar el grafo se utilizar la librería pygraphviz, que debe instalarse usando el comando: 
+
+```
+pip install pygraphviz
+```
+
+El grafo se puede definir como un diccionario así:
 
 ```python
 graph = {'A': ['B', 'C'],
