@@ -20,13 +20,13 @@ La búsqueda primero en profundidad usa un lista LIFO, después de modelar el pr
 
 ### Dibujando grafos en python
 
-Para dibujar el grafo se utilizar la librería pygraphviz, que debe instalarse usando el comando: 
+Para dibujar el grafo se utiliza la librería [pygraphviz](https://pygraphviz.github.io/documentation/pygraphviz-1.3rc1/install.html), que se puede instalar usando el comando: 
 
 ```
 pip install pygraphviz
 ```
 
-El grafo se puede definir como un diccionario así:
+El grafo se puede definir como un diccionario de python así:
 
 ```python
 graph = {'A': ['B', 'C'],
